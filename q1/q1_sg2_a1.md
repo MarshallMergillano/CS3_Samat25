@@ -22,17 +22,19 @@ Subproblems:
 
 Pseudocodes:
 
-Subproblem #1
+Subproblem #1:
+
 BEGIN
   OUTPUT "Enter the food item name: "
   INPUT food_item
 
   OUTPUT "Enter the amount: "
   INPUT item_amount
+END
 
 
-Subproblem #2
+Subproblem #2:
 []
 
-Subproblem #3
+Subproblem #3:
 
