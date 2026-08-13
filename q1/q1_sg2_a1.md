@@ -34,7 +34,21 @@ END
 
 
 Subproblem #2:
-[]
+1. Begin program
+2. Input the food items that are being sold in the canteen and their amount in a list
+3. Create an IF Statement asking if a certain food item was bought/used or not (Y/N)
+4. IF a specific food item in the list was bought/used:
+   - Create an input asking how many of a certain food item was bought/used
+   - Update customers about the new amount
+6. ELIF a specific food item in the list was not bought/used, end the program (leave the amount unchanged)
+7. End program
 
-Subproblem #3:
 
+Subproblem #3
+
+1. Begin program
+2. Input the food items that are being sold in the canteen and their amount in a list
+3. Create an IF Statement regarding the amount of a certain food item in the list
+4. IF a specific food item's amount in the list is == 0, then alert the canteen vendor to restock that item
+5. ELIF a specific food item's amount in the list is > 0, end the program
+6. End program
