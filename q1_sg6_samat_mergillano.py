@@ -3,7 +3,7 @@ class Lab:
     self.room_number = room_number
     
 class Technician:
-  def __init__(self,name, lab_obj):
+  def __init__(self,name):
     self.name = name
     self.assigned_lab = None
     
@@ -12,4 +12,5 @@ class Technician:
 
 chem_lab = Lab("302")
 mr_cruz = Technician("Mr.Cruz")
-print(mr_cruz.assign_lab(chem_lab))
+mr_cruz.assign_lab(chem_lab)
+print(mr_cruz.assigned_lab.room_number)
