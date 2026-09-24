@@ -16,3 +16,5 @@ Sample codes  :
 https://github.com/MarshallMergillano/CS3_Samat25/blob/main/car_game.py
 
 https://github.com/MarshallMergillano/CS3_Samat25/blob/main/inheritance_composition_aggregation_dependency.py
+
+https://github.com/MarshallMergillano/CS3_Samat25/blob/main/q1/tusoktusok_game.py
