@@ -1,6 +1,6 @@
 # INHERITANCE
 class Vehicle:
-  def __init(self,kindofvehicle):
+  def __init__(self,kindofvehicle):
     self.kindofvehicle = kindofvehicle
     print(self.kindofvehicle,"created")
   def move(self,distance):
