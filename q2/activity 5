@@ -1,0 +1,15 @@
+1.All methods share the same method name across independent classes and even if the underlying objects are different they still responmd to the same commands.
+
+2.
+In a game, the game engine often needs to process inputs quickly without caring about the exact type of object on screen. Polymorphism allows the engine to issue a generic command—like pressing a button to trigger special_move() or use()—and let each individual character or item handle that command in its own unique way.
+For instance, the game doesn't need a complex series of if/else statements to check: "If the player is a wizard, do X; if the player is a warrior, do Y." Instead, it simply calls character.special_move(), and polymorphism ensures the correct behavior executes automatically based on whichever object is active.
+
+3.
+attack() method:
+A warrior swings a sword at an enemy/target.
+An archer shoots an arrow at an enemy/target.
+A wizard casts a spell at an enemy/target.
+defend() method:
+A warrior lifts up a shield.
+An archer drinks a defense potion.
+A wizard casts a defense spell.
